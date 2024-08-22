@@ -1,0 +1,99 @@
+/*
+    Author: Your name
+    Creation date: 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+
+/* === Reset === */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body and Typography =========== */
+
+body {
+  height: 100vh;
+  /* === Forcing the height of the page to the browser or viewport window height === */
+  font-family: 'Comfortaa', cursive;
+  color: cornsilk;
+  font-size: 1.2rem;
+}
+
+/* === Header and Typography ========== */
+
+header {
+  padding: 2rem;
+  min-height: 7rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+.text {
+  font-weight: 700;
+  color: rgb(197, 130, 21);
+  text-shadow: 1px 1px 1px #efe78d,
+    1px 2px 1px #efe78d,
+    1px 3px 1px #efe78d,
+    1px 4px 1px #efe78d,
+    1px 5px 1px #efe78d,
+    1px 6px 1px #efe78d,
+    1px 7px 1px #efe78d,
+    1px 8px 1px #efe78d,
+    1px 9px 1px #efe78d,
+    1px 10px 1px #efe78d,
+    1px 18px 6px rgba(133, 105, 4, 0.4),
+    1px 22px 10px rgba(133, 105, 4, 0.4),
+    1px 25px 35px rgba(133, 105, 4, 0.4),
+    1px 30px 60px rgba(239, 176, 17, 0.4);
+}
+
+/* === Navigation Menu === */
+
+nav {
+  margin: 2rem auto 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 50rem;
+}
+
+nav a {
+  font-size: 1rem;
+  color: #865707;
+  text-decoration: none;
+  background-color: #fed353;
+  padding: 0.4rem 0.6rem;
+  border-radius: .2rem;
+  transition: border .4s, color .4s;
+}
+
+nav a:hover {
+  color: rgb(234, 127, 4);
+}
+
+/* === Footer is fixed to the bottom of the page === */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 1rem;
+  text-align: left;
+  padding: 2rem;
+  color: darkslategrey;
+}
